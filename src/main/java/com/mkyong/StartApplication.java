@@ -22,7 +22,7 @@ public class StartApplication implements CommandLineRunner {
     @Override
     public void run(String... args) {
 
-        log.info("StartApplication...");
+        log.info("StartApplication.....");
 
         repository.save(new Book("Java"));
         repository.save(new Book("Node"));
